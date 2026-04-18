@@ -39,3 +39,26 @@ Break this into smaller features like:
 - Database structure
 - API endpoints
 - UI screens
+
+
+
+
+## Procurement Workflow Integration
+
+To extend the system beyond warehouse operations, supplier management should integrate with procurement workflows as follows:
+
+### Purchase Order Creation
+- Generate POs from inventory thresholds and demand signals
+- Select preferred suppliers based on lead time and reliability
+
+### Lead Time Consideration
+- Maintain lead time per supplier–SKU
+- Use lead time in replenishment calculations to avoid stockouts
+
+### Supplier Selection Logic
+- Support multiple suppliers per SKU
+- Select based on cost, lead time, and historical performance
+
+### Inventory Planning Impact
+- Feed supplier data into demand planning
+- Improve safety stock and reorder point accuracy
